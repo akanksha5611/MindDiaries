@@ -190,7 +190,7 @@ section.banner-section.mainblock {
     margin-top: -150px;
     left: 50%;
     background: #9dd4c9;
-    opacity: 50%;
+    opacity: 60%;
     padding: 20px;
 }
 .bannerDesc h2 {
@@ -903,7 +903,7 @@ footer.complete-footer.mainblock {
   
   nav {
     background-color: #9dd4c9;
-    opacity: 50%;
+    opacity: 60%;
   }
   
   .main-nav {
