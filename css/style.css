@@ -869,7 +869,7 @@ h2.mainTitle.center:before {
 .getInTouchInner {
     width: 95%;
 }
-/*Fooetr*/
+/*Footer*/
 footer.complete-footer.mainblock {
     padding: 20px 0 0;
 }
@@ -895,31 +895,58 @@ footer.complete-footer.mainblock {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.navbar {
-    overflow: hidden;
-    background-color:#000;
-    position: fixed;
-    top: 0;
-    width: 100%;
+* {
+    padding: 0;
+    margin: 0;
   }
-  
-  .navbar a {
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+  .logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img {
+    width: 50%;
+    border: 3px solid white;
+    border-radius: 50px;
+  }
+  .navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0%;
+  }
+  .nav-list {
+    display: flex;
+    width: 50%;
+    background-color: black;
+    align-items: center;
+  }
+  .nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+  }
+  .nav-list li a {
     text-decoration: none;
-    font-size: 17px;
+    color: white;
+  }
+  .nav-list li a:hover {
+    color: red;
+  }
+  .right-nav {
+    width: 50%;
+  
+    text-align: right;
+    padding-right: 20px;
+  }
+  #Search {
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid steelblue;
+    border-radius: 5px;
+    cursor: pointer;
   }
   
-  .navbar a:hover {
-    background: #ddd;
-    color: black;
-  }
-  
-  .navmain {
-    /* padding: 16px; */
-    margin-top: 30px;
-    height: 1500px; /* Used in this example to enable scrolling */
-  }
