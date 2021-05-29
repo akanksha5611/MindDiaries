@@ -171,7 +171,8 @@ section.banner-section.mainblock {
     position: relative;
 }
 .bannerText img {
-    width: 100%;
+    width: 50%;
+    position: left;
 }
 .bannerDesc {
     width: 50%;
@@ -179,7 +180,7 @@ section.banner-section.mainblock {
     top: 50%;
     margin-top: -150px;
     left: 9%;
-    background: #00000061;
+    background: white;
     padding: 20px 30px;
 }
 .bannerDesc.banner1 {
@@ -188,18 +189,19 @@ section.banner-section.mainblock {
     top: 50%;
     margin-top: -150px;
     left: 50%;
-    background: #00000061;
+    background: #9dd4c9;
+    opacity: 50%;
     padding: 20px;
 }
 .bannerDesc h2 {
-    color: #fff;
+    color: #000;
     font-size: 30px;
     line-height: 40px;
     text-transform: capitalize;
     margin-top: 0;
 }
 .bannerDesc p {
-    color: #fff;
+    color: #000;
     font-size: 15px;
     line-height: 21px;
     text-transform: capitalize;
@@ -901,6 +903,7 @@ footer.complete-footer.mainblock {
   
   nav {
     background-color: #9dd4c9;
+    opacity: 50%;
   }
   
   .main-nav {
@@ -927,7 +930,7 @@ footer.complete-footer.mainblock {
   
  nav  a {
     text-decoration: none;
-    color: white;
+    color: #000;
     
     
   }
