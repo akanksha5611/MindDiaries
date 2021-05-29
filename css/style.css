@@ -900,7 +900,7 @@ footer.complete-footer.mainblock {
   }
   
   nav {
-    background-color: black;
+    background-color: #9dd4c9;
   }
   
   .main-nav {
@@ -925,7 +925,9 @@ footer.complete-footer.mainblock {
     padding: 20px;
   }
   
-  a {
+ nav  a {
     text-decoration: none;
+    color: white;
+    
     
   }
